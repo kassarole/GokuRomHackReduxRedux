@@ -5835,12 +5835,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_SLUGMA] =
     {
-        .baseHP        = 40,
+        .baseHP        = 80,
         .baseAttack    = 40,
-        .baseDefense   = 40,
-        .baseSpeed     = 20,
-        .baseSpAttack  = 70,
-        .baseSpDefense = 40,
+        .baseDefense   = 80,
+        .baseSpeed     = 35,
+        .baseSpAttack  = 110,
+        .baseSpDefense = 100,
         .types = { TYPE_FIRE, TYPE_FIRE },
         .catchRate = 190,
         .expYield = 50,
@@ -17997,10 +17997,10 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_STEENEE] =
     {
-        .baseHP        = 52,
-        .baseAttack    = 40,
-        .baseDefense   = 48,
-        .baseSpeed     = 62,
+        .baseHP        = 40,
+        .baseAttack    = 120,
+        .baseDefense   = 80,
+        .baseSpeed     = 120,
         .baseSpAttack  = 40,
         .baseSpDefense = 48,
         .types = { TYPE_GRASS, TYPE_GRASS},
